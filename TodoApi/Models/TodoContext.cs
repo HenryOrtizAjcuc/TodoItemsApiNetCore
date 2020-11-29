@@ -9,7 +9,6 @@ namespace TodoApi.Models
         // servicio a los controladores.
         public TodoContext(DbContextOptions<TodoContext> options) : base(options)
         {
-
         }
 
         public DbSet<TodoItem> TodoItems { get; set; }
